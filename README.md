@@ -4,7 +4,10 @@
 
 The objective of this assignment is to develop a proof-of-concept (POC) notification system for Insyd, a next-generation social web platform for the architecture industry. The system enables users to follow others, create activities (e.g., posts), and receive real-time notifications (e.g., "User X followed you" or "User Y posted a design"). Designed for 100 daily active users (DAUs) with scalability considerations for 1M DAUs, the POC focuses on simplicity, cost-efficiency, and core functionality using NodeJS, MongoDB, ReactJS, and Socket.io, without authentication or caching.
 
-![ui](images/preview.png)
+<div style="text-align: center;">
+     <img src="images\home_page.jpeg" alt="ui">
+</div>
+<br/>
 
 ### Tools and Libraries Used
 
@@ -40,7 +43,8 @@ The objective of this assignment is to develop a proof-of-concept (POC) notifica
 
 ### Set Up Instructions
 
-Click to view
+<details>
+<summary>Click to view</summary>summary>
 
 1. **Clone Repositories**:
 
@@ -71,6 +75,7 @@ Click to view
 
    - Use Postman to test API endpoints (see below).
    - Verify frontend displays users, follows, and notifications.
+</details>
 
 ### Assignment Completion Instructions
 
@@ -87,8 +92,8 @@ The app must have the following functionalities:
 - Exclude authentication, caching, and responsive design for POC simplicity.
 
 ### Assignment Completion Checklist
-
-Click to view
+<details>
+<summary>Click to view</summary>
 
 - The completion checklist includes the following points:
   - [x] I have completed all the functionalities asked in the assignment.
@@ -112,14 +117,16 @@ Click to view
   - [x] Verified real-time notifications via Socket.io and polling fallback.
 
   - [x] Tested all endpoints with Postman and frontend integration.
+</details>
 
 ### Important Note
-
-Click to view
+<details>
+<summary>Click to view</summary>
 
 - No user authentication is implemented; the app runs in demo mode with sample data.
 - Responsive design is excluded for POC simplicity, but Tailwind CSS ensures a clean UI.
 - Sample data is provided in `data/` directory for testing.
+</details>
 
 ### Resources
 
