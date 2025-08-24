@@ -9,7 +9,7 @@ The objective of this assignment is to develop a proof-of-concept (POC) notifica
 </div>
 <br/>
 
-### Tools and Libraries Used
+## Tools and Libraries Used
 
 - **React:** Frontend framework for building an intuitive user interface with user selection, activity creation, and notification display.
 - **Node.js & Express.js:** Backend runtime and framework for API endpoints to manage users, follows, activities, and notifications.
@@ -22,7 +22,7 @@ The objective of this assignment is to develop a proof-of-concept (POC) notifica
 - **Winston:** Logging library for debugging and analytics.
 - **Cors:** Middleware to enable cross-origin resource sharing for API calls.
 
-### Improvements with More Time
+## Improvements with More Time
 
 - **Authentication:** Integrate JWT-based authentication to secure user actions and personalize notifications.
 - **Database Optimization:** Add MongoDB sharding and Redis caching for 1M DAUs to handle high query volumes.
@@ -32,7 +32,7 @@ The objective of this assignment is to develop a proof-of-concept (POC) notifica
 - **Notification Coalescing:** Group similar notifications (e.g., "5 users followed you") to reduce spam for popular users.
 - **Analytics Dashboard:** Use Grafana to visualize notification delivery metrics and user engagement.
 
-### Challenges Faced and Solutions
+## Challenges Faced and Solutions
 
 - **Empty Follows Issue:** The `/activity` endpoint’s `for` loop was skipped due to an empty `follows` array.\
   **Solution:** Added sample data with follow relationships and validated `followeeId` in `POST /follow`. Logs confirmed follower retrieval.
@@ -41,7 +41,7 @@ The objective of this assignment is to develop a proof-of-concept (POC) notifica
 - **UI Usability:** Manual user ID input was error-prone.\
   **Solution:** Implemented dropdowns for user selection using `GET /users` and added toast notifications for feedback.
 
-### Set Up Instructions
+## Set Up Instructions
 
 <details>
 <summary>Click to view</summary>summary>
@@ -77,7 +77,7 @@ The objective of this assignment is to develop a proof-of-concept (POC) notifica
    - Verify frontend displays users, follows, and notifications.
 </details>
 
-### Assignment Completion Instructions
+## Assignment Completion Instructions
 
 Functionality to be added
 
@@ -91,7 +91,7 @@ The app must have the following functionalities:
 - Provide logging for debugging and analytics (e.g., notification counts).
 - Exclude authentication, caching, and responsive design for POC simplicity.
 
-### Assignment Completion Checklist
+## Assignment Completion Checklist
 <details>
 <summary>Click to view</summary>
 
@@ -119,7 +119,7 @@ The app must have the following functionalities:
   - [x] Tested all endpoints with Postman and frontend integration.
 </details>
 
-### Important Note
+## Important Note
 <details>
 <summary>Click to view</summary>
 
@@ -128,7 +128,7 @@ The app must have the following functionalities:
 - Sample data is provided in `data/` directory for testing.
 </details>
 
-### Resources
+## Resources
 
 Data Fetch URLs
 
@@ -138,7 +138,7 @@ Data Fetch URLs
 - `http://localhost:5000/notifications/:userId?type=<type>` - Fetch notifications for a user, optionally filtered by type.
 - `http://localhost:5000/notifications/:notificationId` - Update notification read status.
 
-### Testing Instructions
+## Testing Instructions
 
 Postman Testing
 
